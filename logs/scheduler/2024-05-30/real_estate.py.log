@@ -1,0 +1,1328 @@
+[2024-05-30T06:11:56.340+0000] {processor.py:161} INFO - Started process (PID=20408) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:11:56.343+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:11:56.346+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:11:56.346+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:11:56.377+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:11:56.374+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:11:56.379+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:11:56.457+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.137 seconds
+[2024-05-30T06:12:26.720+0000] {processor.py:161} INFO - Started process (PID=20467) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:12:26.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:12:26.722+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:12:26.721+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:12:26.736+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:12:26.735+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:12:26.737+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:12:26.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.050 seconds
+[2024-05-30T06:12:57.378+0000] {processor.py:161} INFO - Started process (PID=20528) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:12:57.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:12:57.383+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:12:57.382+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:12:57.411+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:12:57.409+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:12:57.413+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:12:57.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.089 seconds
+[2024-05-30T06:13:27.599+0000] {processor.py:161} INFO - Started process (PID=20587) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:13:27.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:13:27.603+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:13:27.602+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:13:27.623+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:13:27.621+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:13:27.624+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:13:27.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.078 seconds
+[2024-05-30T06:13:58.072+0000] {processor.py:161} INFO - Started process (PID=20646) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:13:58.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:13:58.081+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:13:58.079+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:13:58.136+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:13:58.132+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:13:58.139+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:13:58.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.192 seconds
+[2024-05-30T06:14:28.305+0000] {processor.py:161} INFO - Started process (PID=20706) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:14:28.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:14:28.308+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:14:28.308+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:14:28.328+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:14:28.326+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:14:28.329+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:14:28.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.075 seconds
+[2024-05-30T06:14:58.792+0000] {processor.py:161} INFO - Started process (PID=20767) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:14:58.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:14:58.795+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:14:58.795+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:14:58.821+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:14:58.819+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:14:58.823+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:14:58.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.084 seconds
+[2024-05-30T06:15:29.441+0000] {processor.py:161} INFO - Started process (PID=20827) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:15:29.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:15:29.455+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:15:29.454+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:15:29.541+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:15:29.538+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:15:29.543+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:15:29.579+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.178 seconds
+[2024-05-30T06:16:00.492+0000] {processor.py:161} INFO - Started process (PID=20888) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:16:00.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:16:00.502+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:16:00.501+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:16:00.583+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:16:00.578+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:16:00.587+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:16:00.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.219 seconds
+[2024-05-30T06:16:31.366+0000] {processor.py:161} INFO - Started process (PID=20950) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:16:31.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:16:31.371+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:16:31.370+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:16:31.412+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:16:31.409+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:16:31.414+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:16:31.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.123 seconds
+[2024-05-30T06:17:01.774+0000] {processor.py:161} INFO - Started process (PID=21011) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:17:01.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:17:01.777+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:17:01.777+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:17:01.801+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:17:01.799+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:17:01.803+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:17:01.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.095 seconds
+[2024-05-30T06:17:32.629+0000] {processor.py:161} INFO - Started process (PID=21072) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:17:32.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:17:32.634+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:17:32.633+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:17:32.659+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:17:32.657+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:17:32.661+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:17:32.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.092 seconds
+[2024-05-30T06:18:03.656+0000] {processor.py:161} INFO - Started process (PID=21133) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:18:03.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:18:03.659+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:18:03.659+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:18:03.681+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:18:03.680+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:18:03.682+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:18:03.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.078 seconds
+[2024-05-30T06:18:34.681+0000] {processor.py:161} INFO - Started process (PID=21194) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:18:34.685+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:18:34.691+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:18:34.689+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:18:34.773+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:18:34.768+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:18:34.777+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:18:34.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.212 seconds
+[2024-05-30T06:19:05.674+0000] {processor.py:161} INFO - Started process (PID=21255) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:19:05.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:19:05.684+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:19:05.683+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:19:05.760+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:19:05.755+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:19:05.764+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:19:05.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.222 seconds
+[2024-05-30T06:19:36.395+0000] {processor.py:161} INFO - Started process (PID=21316) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:19:36.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:19:36.407+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:19:36.405+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:19:36.476+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:19:36.470+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:19:36.480+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:19:36.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.228 seconds
+[2024-05-30T06:20:07.267+0000] {processor.py:161} INFO - Started process (PID=21378) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:20:07.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:20:07.273+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:20:07.272+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:20:07.323+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:20:07.320+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:20:07.325+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:20:07.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.132 seconds
+[2024-05-30T06:20:38.333+0000] {processor.py:161} INFO - Started process (PID=21439) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:20:38.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:20:38.340+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:20:38.339+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:20:38.367+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:20:38.364+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:20:38.368+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:20:38.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.099 seconds
+[2024-05-30T06:21:08.768+0000] {processor.py:161} INFO - Started process (PID=21500) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:21:08.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:21:08.779+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:21:08.778+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:21:08.830+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:21:08.827+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:21:08.832+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:21:08.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.163 seconds
+[2024-05-30T06:21:39.729+0000] {processor.py:161} INFO - Started process (PID=21561) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:21:39.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:21:39.736+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:21:39.735+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:21:39.793+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:21:39.788+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:21:39.797+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:21:39.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.185 seconds
+[2024-05-30T06:22:10.079+0000] {processor.py:161} INFO - Started process (PID=21622) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:22:10.080+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:22:10.084+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:22:10.082+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:22:10.108+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:22:10.106+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:22:10.109+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:22:10.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.084 seconds
+[2024-05-30T06:22:40.811+0000] {processor.py:161} INFO - Started process (PID=21683) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:22:40.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:22:40.819+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:22:40.818+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:22:40.869+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:22:40.866+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:22:40.872+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:22:40.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.149 seconds
+[2024-05-30T06:23:11.248+0000] {processor.py:161} INFO - Started process (PID=21744) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:23:11.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:23:11.255+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:23:11.254+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:23:11.309+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:23:11.303+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:23:11.311+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:23:11.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.148 seconds
+[2024-05-30T06:23:41.911+0000] {processor.py:161} INFO - Started process (PID=21805) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:23:41.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:23:41.918+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:23:41.916+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:23:41.942+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:23:41.940+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:23:41.944+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:23:41.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.110 seconds
+[2024-05-30T06:24:12.191+0000] {processor.py:161} INFO - Started process (PID=21867) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:24:12.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:24:12.204+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:24:12.203+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:24:12.251+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:24:12.248+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:24:12.253+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:24:12.347+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.185 seconds
+[2024-05-30T06:24:42.943+0000] {processor.py:161} INFO - Started process (PID=21927) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:24:42.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:24:42.949+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:24:42.948+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:24:42.979+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:24:42.975+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:24:42.981+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:24:43.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.114 seconds
+[2024-05-30T06:25:14.036+0000] {processor.py:161} INFO - Started process (PID=21988) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:25:14.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:25:14.046+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:25:14.045+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:25:14.092+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:25:14.088+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:25:14.094+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:25:14.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.141 seconds
+[2024-05-30T06:25:44.976+0000] {processor.py:161} INFO - Started process (PID=22049) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:25:44.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:25:44.979+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:25:44.979+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:25:45.006+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:25:45.003+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:25:45.007+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:25:45.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.082 seconds
+[2024-05-30T06:26:15.206+0000] {processor.py:161} INFO - Started process (PID=22110) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:26:15.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:26:15.225+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:26:15.224+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:26:15.306+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:26:15.301+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:26:15.313+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:26:15.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.222 seconds
+[2024-05-30T06:26:45.640+0000] {processor.py:161} INFO - Started process (PID=22169) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:26:45.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:26:45.646+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:26:45.645+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:26:45.693+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:26:45.688+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:26:45.695+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:26:45.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.136 seconds
+[2024-05-30T06:27:16.187+0000] {processor.py:161} INFO - Started process (PID=22230) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:27:16.190+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:27:16.192+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:27:16.192+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:27:16.226+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:27:16.224+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:27:16.227+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:27:16.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.107 seconds
+[2024-05-30T06:27:46.491+0000] {processor.py:161} INFO - Started process (PID=22291) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:27:46.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:27:46.502+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:27:46.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:27:46.580+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:27:46.571+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:27:46.583+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:27:46.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.212 seconds
+[2024-05-30T06:28:16.814+0000] {processor.py:161} INFO - Started process (PID=22351) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:28:16.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:28:16.822+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:28:16.821+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:28:16.856+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:28:16.855+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:28:16.857+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:28:16.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.100 seconds
+[2024-05-30T06:28:47.003+0000] {processor.py:161} INFO - Started process (PID=22412) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:28:47.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:28:47.009+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:28:47.008+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:28:47.058+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:28:47.055+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:28:47.060+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:28:47.116+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.132 seconds
+[2024-05-30T06:29:17.956+0000] {processor.py:161} INFO - Started process (PID=22474) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:29:17.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:29:17.959+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:29:17.959+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:29:17.981+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:29:17.979+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:29:17.982+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:29:18.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.072 seconds
+[2024-05-30T06:29:48.875+0000] {processor.py:161} INFO - Started process (PID=22535) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:29:48.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:29:48.880+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:29:48.879+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:29:48.915+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:29:48.912+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:29:48.917+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:29:48.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.135 seconds
+[2024-05-30T06:30:19.333+0000] {processor.py:161} INFO - Started process (PID=22596) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:30:19.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:30:19.338+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:30:19.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:30:19.364+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:30:19.362+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:30:19.365+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:30:19.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.097 seconds
+[2024-05-30T06:30:50.233+0000] {processor.py:161} INFO - Started process (PID=22657) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:30:50.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:30:50.238+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:30:50.237+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:30:50.272+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:30:50.270+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:30:50.274+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:30:50.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.094 seconds
+[2024-05-30T06:31:20.931+0000] {processor.py:161} INFO - Started process (PID=22718) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:31:20.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:31:20.934+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:31:20.934+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:31:20.959+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:31:20.957+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:31:20.960+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:31:21.003+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.085 seconds
+[2024-05-30T06:31:51.201+0000] {processor.py:161} INFO - Started process (PID=22779) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:31:51.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:31:51.207+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:31:51.206+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:31:51.266+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:31:51.262+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:31:51.269+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:31:51.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.157 seconds
+[2024-05-30T06:32:21.618+0000] {processor.py:161} INFO - Started process (PID=22840) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:32:21.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:32:21.627+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:32:21.625+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:32:21.706+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:32:21.701+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:32:21.710+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:32:21.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.216 seconds
+[2024-05-30T06:32:52.561+0000] {processor.py:161} INFO - Started process (PID=22901) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:32:52.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:32:52.571+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:32:52.569+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:32:52.629+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:32:52.626+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:32:52.630+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:32:52.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.250 seconds
+[2024-05-30T06:33:23.542+0000] {processor.py:161} INFO - Started process (PID=22962) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:33:23.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:33:23.546+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:33:23.545+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:33:23.576+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:33:23.574+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:33:23.578+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:33:23.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.090 seconds
+[2024-05-30T06:33:54.111+0000] {processor.py:161} INFO - Started process (PID=23023) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:33:54.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:33:54.115+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:33:54.114+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:33:54.141+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:33:54.138+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:33:54.142+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:33:54.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.095 seconds
+[2024-05-30T06:34:24.634+0000] {processor.py:161} INFO - Started process (PID=23084) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:34:24.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:34:24.643+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:34:24.642+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:34:24.722+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:34:24.714+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:34:24.728+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:34:24.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.253 seconds
+[2024-05-30T06:34:55.026+0000] {processor.py:161} INFO - Started process (PID=23146) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:34:55.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:34:55.032+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:34:55.031+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:34:55.062+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:34:55.059+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:34:55.064+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:34:55.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.113 seconds
+[2024-05-30T06:35:25.806+0000] {processor.py:161} INFO - Started process (PID=23207) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:35:25.808+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:35:25.810+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:35:25.809+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:35:25.831+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:35:25.829+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:35:25.832+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:35:25.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.080 seconds
+[2024-05-30T06:35:56.513+0000] {processor.py:161} INFO - Started process (PID=23269) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:35:56.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:35:56.522+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:35:56.521+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:35:56.606+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:35:56.600+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:35:56.609+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:35:56.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.212 seconds
+[2024-05-30T06:36:27.889+0000] {processor.py:161} INFO - Started process (PID=23330) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:36:27.891+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:36:27.894+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:36:27.893+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:36:27.930+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:36:27.927+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:36:27.932+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:36:28.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.164 seconds
+[2024-05-30T06:36:58.704+0000] {processor.py:161} INFO - Started process (PID=23391) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:36:58.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:36:58.710+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:36:58.709+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:36:58.743+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:36:58.740+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:36:58.744+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:36:58.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.107 seconds
+[2024-05-30T06:37:29.043+0000] {processor.py:161} INFO - Started process (PID=23452) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:37:29.048+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:37:29.056+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:37:29.052+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:37:29.124+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:37:29.116+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:37:29.129+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:37:29.240+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.238 seconds
+[2024-05-30T06:37:59.927+0000] {processor.py:161} INFO - Started process (PID=23513) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:37:59.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:37:59.932+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:37:59.931+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:37:59.957+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:37:59.955+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:37:59.958+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:37:59.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.083 seconds
+[2024-05-30T06:38:30.181+0000] {processor.py:161} INFO - Started process (PID=23573) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:38:30.186+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:38:30.192+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:38:30.190+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:38:30.282+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:38:30.273+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:38:30.289+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:38:30.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.248 seconds
+[2024-05-30T06:39:00.773+0000] {processor.py:161} INFO - Started process (PID=23635) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:39:00.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:39:00.781+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:39:00.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:39:00.830+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:39:00.826+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:39:00.833+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:39:00.888+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.137 seconds
+[2024-05-30T06:39:31.909+0000] {processor.py:161} INFO - Started process (PID=23696) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:39:31.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:39:31.921+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:39:31.919+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:39:32.018+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:39:32.016+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:39:32.021+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:39:32.076+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.219 seconds
+[2024-05-30T06:40:02.954+0000] {processor.py:161} INFO - Started process (PID=23761) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:40:02.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:40:02.957+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:40:02.957+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:40:02.989+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:40:02.986+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:40:02.991+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:40:03.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.144 seconds
+[2024-05-30T06:40:33.303+0000] {processor.py:161} INFO - Started process (PID=23824) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:40:33.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:40:33.309+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:40:33.308+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:40:33.351+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:40:33.349+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:40:33.353+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:40:33.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.131 seconds
+[2024-05-30T06:41:03.807+0000] {processor.py:161} INFO - Started process (PID=23884) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:41:03.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:41:03.811+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:41:03.811+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:41:03.834+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:41:03.832+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:41:03.836+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:41:03.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.081 seconds
+[2024-05-30T06:41:34.258+0000] {processor.py:161} INFO - Started process (PID=23945) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:41:34.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:41:34.263+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:41:34.262+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:41:34.292+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:41:34.290+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:41:34.294+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:41:34.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.111 seconds
+[2024-05-30T06:42:04.609+0000] {processor.py:161} INFO - Started process (PID=24005) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:42:04.612+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:42:04.614+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:42:04.613+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:42:04.654+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:42:04.651+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:42:04.657+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:42:04.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.133 seconds
+[2024-05-30T06:42:35.645+0000] {processor.py:161} INFO - Started process (PID=24065) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:42:35.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:42:35.655+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:42:35.654+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:42:35.722+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:42:35.716+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:42:35.725+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:42:35.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.269 seconds
+[2024-05-30T06:43:06.608+0000] {processor.py:161} INFO - Started process (PID=24126) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:43:06.613+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:43:06.617+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:43:06.616+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:43:06.670+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:43:06.667+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:43:06.673+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:43:06.758+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.170 seconds
+[2024-05-30T06:43:36.964+0000] {processor.py:161} INFO - Started process (PID=24184) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:43:36.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:43:36.967+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:43:36.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:43:36.991+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:43:36.989+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:43:36.992+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:43:37.025+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.072 seconds
+[2024-05-30T06:44:07.976+0000] {processor.py:161} INFO - Started process (PID=24243) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:44:07.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:44:07.981+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:44:07.980+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:44:08.013+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:44:08.011+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:44:08.015+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:44:08.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.106 seconds
+[2024-05-30T06:44:38.200+0000] {processor.py:161} INFO - Started process (PID=24302) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:44:38.202+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:44:38.205+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:44:38.204+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:44:38.237+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:44:38.234+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:44:38.239+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:44:38.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.088 seconds
+[2024-05-30T06:45:08.443+0000] {processor.py:161} INFO - Started process (PID=24363) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:45:08.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:45:08.448+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:45:08.448+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:45:08.478+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:45:08.475+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:45:08.480+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:45:08.523+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.095 seconds
+[2024-05-30T06:45:38.949+0000] {processor.py:161} INFO - Started process (PID=24424) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:45:38.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:45:38.953+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:45:38.953+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:45:38.982+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:45:38.979+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:45:38.983+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:45:39.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.092 seconds
+[2024-05-30T06:46:09.835+0000] {processor.py:161} INFO - Started process (PID=24485) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:46:09.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:46:09.841+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:46:09.840+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:46:09.867+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:46:09.864+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:46:09.869+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:46:09.913+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.096 seconds
+[2024-05-30T06:46:40.622+0000] {processor.py:161} INFO - Started process (PID=24546) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:46:40.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:46:40.628+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:46:40.627+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:46:40.670+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:46:40.665+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:46:40.672+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:46:40.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.126 seconds
+[2024-05-30T06:47:11.289+0000] {processor.py:161} INFO - Started process (PID=24608) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:47:11.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:47:11.298+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:47:11.296+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:47:11.363+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:47:11.358+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:47:11.366+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:47:11.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.219 seconds
+[2024-05-30T06:47:42.392+0000] {processor.py:161} INFO - Started process (PID=24670) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:47:42.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:47:42.396+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:47:42.395+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:47:42.423+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:47:42.421+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:47:42.425+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:47:42.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.105 seconds
+[2024-05-30T06:48:13.157+0000] {processor.py:161} INFO - Started process (PID=24732) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:48:13.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:48:13.165+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:48:13.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:48:13.221+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:48:13.216+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:48:13.224+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:48:13.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.189 seconds
+[2024-05-30T06:48:43.612+0000] {processor.py:161} INFO - Started process (PID=24794) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:48:43.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:48:43.617+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:48:43.616+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:48:43.651+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:48:43.650+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:48:43.653+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:48:43.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.115 seconds
+[2024-05-30T06:49:14.146+0000] {processor.py:161} INFO - Started process (PID=24856) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:49:14.151+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:49:14.156+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:49:14.154+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:49:14.212+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:49:14.209+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:49:14.213+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:49:14.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.154 seconds
+[2024-05-30T06:49:45.127+0000] {processor.py:161} INFO - Started process (PID=24918) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:49:45.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:49:45.137+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:49:45.135+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:49:45.210+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:49:45.204+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:49:45.214+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:49:45.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.223 seconds
+[2024-05-30T06:50:15.874+0000] {processor.py:161} INFO - Started process (PID=24981) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:50:15.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:50:15.882+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:50:15.881+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:50:15.936+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:50:15.930+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:50:15.939+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:50:16.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.164 seconds
+[2024-05-30T06:50:46.376+0000] {processor.py:161} INFO - Started process (PID=25044) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:50:46.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:50:46.386+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:50:46.384+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:50:46.460+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:50:46.455+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:50:46.464+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:50:46.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.239 seconds
+[2024-05-30T06:51:17.186+0000] {processor.py:161} INFO - Started process (PID=25105) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:51:17.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:51:17.198+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:51:17.195+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:51:17.279+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:51:17.273+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:51:17.283+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:51:17.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.216 seconds
+[2024-05-30T06:51:47.682+0000] {processor.py:161} INFO - Started process (PID=25172) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:51:47.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:51:47.686+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:51:47.686+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:51:47.720+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:51:47.718+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:51:47.721+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:51:47.761+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.104 seconds
+[2024-05-30T06:52:18.343+0000] {processor.py:161} INFO - Started process (PID=25234) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:52:18.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:52:18.356+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:52:18.352+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:52:18.440+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:52:18.432+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:52:18.445+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:52:18.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.229 seconds
+[2024-05-30T06:52:49.174+0000] {processor.py:161} INFO - Started process (PID=25296) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:52:49.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:52:49.181+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:52:49.180+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:52:49.229+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:52:49.226+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:52:49.231+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:52:49.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.158 seconds
+[2024-05-30T06:53:19.803+0000] {processor.py:161} INFO - Started process (PID=25358) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:53:19.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:53:19.808+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:53:19.807+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:53:19.842+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:53:19.840+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:53:19.844+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:53:19.885+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.095 seconds
+[2024-05-30T06:53:50.083+0000] {processor.py:161} INFO - Started process (PID=25420) to work on /opt/airflow/dags/real_estate.py
+[2024-05-30T06:53:50.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/real_estate.py for tasks to queue
+[2024-05-30T06:53:50.093+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:53:50.091+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:53:50.150+0000] {logging_mixin.py:188} INFO - [2024-05-30T06:53:50.147+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/real_estate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/real_estate.py", line 19
+    with DAG("real_estate_data_pipeline", 
+IndentationError: unexpected indent
+[2024-05-30T06:53:50.154+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/real_estate.py
+[2024-05-30T06:53:50.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/real_estate.py took 0.175 seconds

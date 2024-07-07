@@ -1,0 +1,20 @@
+[2024-05-30T07:54:56.644+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-30T07:54:56.699+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: training_models.training_model_B manual__2024-05-30T07:54:52.325279+00:00 [queued]>
+[2024-05-30T07:54:56.720+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: training_models.training_model_B manual__2024-05-30T07:54:52.325279+00:00 [queued]>
+[2024-05-30T07:54:56.722+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-05-30T07:54:56.764+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): training_model_B> on 2024-05-30 07:54:52.325279+00:00
+[2024-05-30T07:54:56.779+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=3302) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-30T07:54:56.785+0000] {standard_task_runner.py:63} INFO - Started process 3309 to run task
+[2024-05-30T07:54:56.785+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'training_models', 'training_model_B', 'manual__2024-05-30T07:54:52.325279+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/training_models.py', '--cfg-path', '/tmp/tmphwniceca']
+[2024-05-30T07:54:56.792+0000] {standard_task_runner.py:91} INFO - Job 45: Subtask training_model_B
+[2024-05-30T07:54:56.916+0000] {task_command.py:426} INFO - Running <TaskInstance: training_models.training_model_B manual__2024-05-30T07:54:52.325279+00:00 [running]> on host abdc8a9dc09e
+[2024-05-30T07:54:57.160+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='training_models' AIRFLOW_CTX_TASK_ID='training_model_B' AIRFLOW_CTX_EXECUTION_DATE='2024-05-30T07:54:52.325279+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-30T07:54:52.325279+00:00'
+[2024-05-30T07:54:57.164+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-30T07:54:57.166+0000] {python.py:237} INFO - Done. Returned value was: 12
+[2024-05-30T07:54:57.166+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-30T07:54:57.224+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=training_models, task_id=training_model_B, run_id=manual__2024-05-30T07:54:52.325279+00:00, execution_date=20240530T075452, start_date=20240530T075456, end_date=20240530T075457
+[2024-05-30T07:54:57.289+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-30T07:54:57.386+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-30T07:54:57.392+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

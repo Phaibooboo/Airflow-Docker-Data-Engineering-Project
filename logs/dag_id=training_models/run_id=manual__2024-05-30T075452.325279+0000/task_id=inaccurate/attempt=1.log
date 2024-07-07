@@ -1,0 +1,24 @@
+[2024-05-30T07:55:06.484+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-30T07:55:06.536+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: training_models.inaccurate manual__2024-05-30T07:54:52.325279+00:00 [queued]>
+[2024-05-30T07:55:06.555+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: training_models.inaccurate manual__2024-05-30T07:54:52.325279+00:00 [queued]>
+[2024-05-30T07:55:06.556+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-05-30T07:55:06.584+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): inaccurate> on 2024-05-30 07:54:52.325279+00:00
+[2024-05-30T07:55:06.596+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=3319) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-30T07:55:06.599+0000] {standard_task_runner.py:63} INFO - Started process 3321 to run task
+[2024-05-30T07:55:06.600+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'training_models', 'inaccurate', 'manual__2024-05-30T07:54:52.325279+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/training_models.py', '--cfg-path', '/tmp/tmp52y9nt1d']
+[2024-05-30T07:55:06.606+0000] {standard_task_runner.py:91} INFO - Job 51: Subtask inaccurate
+[2024-05-30T07:55:06.767+0000] {task_command.py:426} INFO - Running <TaskInstance: training_models.inaccurate manual__2024-05-30T07:54:52.325279+00:00 [running]> on host abdc8a9dc09e
+[2024-05-30T07:55:07.232+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='training_models' AIRFLOW_CTX_TASK_ID='inaccurate' AIRFLOW_CTX_EXECUTION_DATE='2024-05-30T07:54:52.325279+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-30T07:54:52.325279+00:00'
+[2024-05-30T07:55:07.236+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-30T07:55:07.238+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-05-30T07:55:07.239+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', "echo 'inaccurate'"]
+[2024-05-30T07:55:07.265+0000] {subprocess.py:86} INFO - Output:
+[2024-05-30T07:55:07.267+0000] {subprocess.py:93} INFO - inaccurate
+[2024-05-30T07:55:07.268+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-05-30T07:55:07.270+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-30T07:55:07.330+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=training_models, task_id=inaccurate, run_id=manual__2024-05-30T07:54:52.325279+00:00, execution_date=20240530T075452, start_date=20240530T075506, end_date=20240530T075507
+[2024-05-30T07:55:07.380+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-30T07:55:07.434+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-30T07:55:07.438+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
